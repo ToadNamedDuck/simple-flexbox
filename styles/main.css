@@ -1,0 +1,54 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pageHeader{
+    text-align: center;
+}
+.headerSeparator{
+    width: 16em;
+}
+.shop{
+    flex-basis: 12%;
+    border: solid 1px black;
+    text-align: center;
+    padding: 1em;
+    margin: .5em;
+    /* width: 12%; */
+}
+.jeanLafitteArticle{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-basis: 12%;
+    background-color: rgb(241, 217, 188);
+    align-items: center;
+}
+/* .jeanLafitteInfoSection{
+
+} */
+.jeanLafitteImg{
+    position: sticky;
+    border: solid gold 3px;
+    border-radius: 1em;
+    height: 30em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.jeanLafitteP{
+    text-align: center;
+    font-family: Domine;
+    font-style: italic;
+}
+.jeanLafitteCommitteeSection{
+    color:darkcyan;
+    text-align: center;
+    font-style: italic;
+
+}
+.jeanLafitte3PDiv{
+    border: solid black 2px;
+    border-radius: .5em;
+    padding-right: 4px
+}
